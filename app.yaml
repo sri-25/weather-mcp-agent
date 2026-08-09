@@ -1,3 +1,11 @@
 command:
   - "python"
   - "weather_mcp_server.py"
+
+# Environment variables
+env:
+  - name: DATABRICKS_APP_PORT
+    value: "8000"
+
+# Note: For MCP connector access, additional OAuth configuration
+# may be required in the Databricks Apps settings or MCP connector setup
